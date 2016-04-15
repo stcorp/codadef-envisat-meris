@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<cd:Record xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" format="binary" name="MER_RR__1P_ADSR_sq_meris_rec_data" last-modified="2010-08-26">
+  <cd:Field name="dsr_time">
+    <cd:Time timeformat="binary_envisat_datetime">
+      <cd:Description>Start time of the measurement</cd:Description>
+    </cd:Time>
+  </cd:Field>
+  <cd:Field name="attach_flag">
+    <cd:Integer>
+      <cd:Description>Attachment Flag</cd:Description>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="range_flag">
+    <cd:Array>
+      <cd:Description>Out of Range flag. For every band, when the number of out of range samples is above a given threshold then it is set to TRUE, otherwise it is left to FALSE. The 15 flags for all the bands of a module are stored in an unsigned integer.</cd:Description>
+      <cd:Dimension>5</cd:Dimension>
+      <cd:Integer>
+        <cd:BitSize>16</cd:BitSize>
+        <cd:NativeType>uint16</cd:NativeType>
+      </cd:Integer>
+    </cd:Array>
+  </cd:Field>
+  <cd:Field name="range_blind_flag">
+    <cd:Array>
+      <cd:Description>Out of Range blind flag.  Flags set to TRUE when the number of out of range blind spectral samples per module is above a given threshold. Flag ordering same as described in field 3.</cd:Description>
+      <cd:Dimension>5</cd:Dimension>
+      <cd:Integer>
+        <cd:BitSize>16</cd:BitSize>
+        <cd:NativeType>uint16</cd:NativeType>
+      </cd:Integer>
+    </cd:Array>
+  </cd:Field>
+</cd:Record>

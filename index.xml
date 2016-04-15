@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<cd:ProductClass name="ENVISAT_MERIS" last-modified="2010-08-25" xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07">
+  <cd:Description>ENVISAT MERIS products</cd:Description>
+  <cd:ProductType name="MER_RR__1P">
+    <cd:Description>MERIS Reduced Resolution Geolocated and Calibrated TOA Radiance (stripline)</cd:Description>
+    <cd:ProductDefinition id="MER_RR__1P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RR__1P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS2009_11_3H</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_RR__1P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RR__1P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_RR__2P">
+    <cd:Description>MERIS Reduced Resolution Geophysical Product for Ocean, Land and Atmosphere (stripline)</cd:Description>
+    <cd:ProductDefinition id="MER_RR__2P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RR__2P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS2009_11_3H</cd:MatchData>
+      </cd:DetectionRule>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RR__2P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS2009_11_3J</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_RR__2P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RR__2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_LRC_2P">
+    <cd:Description>MERIS Extracted Cloud Thickness and Water Vapour for Meteo Users (Cloud thickness and water vapour content for the Meteo at reduced resolution > 5 km) (stripline)</cd:Description>
+    <cd:ProductDefinition id="MER_LRC_2P_v0" format="binary" version="0">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_LRC_2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_RRC_2P">
+    <cd:Description>MERIS Extracted Cloud Thickness and Water Vapour (non-Meteo Users) (Cloud thickness and water vapour content at nominal RR resolution) for NRT distribution (stripline)</cd:Description>
+    <cd:ProductDefinition id="MER_RRC_2P_v0" format="binary" version="0">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RRC_2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_RRV_2P">
+    <cd:Description>MERIS Extracted Vegetation Indices (Vegetation indices including atmospheric corrections for selected land regions) for NRT distribution (stripline)</cd:Description>
+    <cd:ProductDefinition id="MER_RRV_2P_v0" format="binary" version="0">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_RRV_2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_FR__1P">
+    <cd:Description>MERIS Full Resolution Geolocated and Calibrated TOA Radiance</cd:Description>
+    <cd:ProductDefinition id="MER_FR__1P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FR__1P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS-2009_3/B</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_FR__1P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FR__1P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_FR__2P">
+    <cd:Description>MERIS Full Resolution Geophysical Product for Ocean, Land, and Atmosphere</cd:Description>
+    <cd:ProductDefinition id="MER_FR__2P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FR__2P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS2009_11_3J</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_FR__2P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FR__2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_FRS_1P">
+    <cd:Description>MERIS Full Resolution Full Swath Geolocated and Calibrated TOA Radiance</cd:Description>
+    <cd:ProductDefinition id="MER_FR__1P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FRS_1P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS-2009_3/B</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_FR__1P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FRS_1P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+  <cd:ProductType name="MER_FRS_2P">
+    <cd:Description>MERIS Full Resolution Full Swath Geophysical Product for Ocean, Land, and Atmosphere</cd:Description>
+    <cd:ProductDefinition id="MER_FR__2P_v0" format="binary" version="0">
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FRS_2P</cd:MatchData>
+        <cd:MatchData offset="95">PO-RS-MDA-GS2009_11_3J</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+    <cd:ProductDefinition id="MER_FR__2P_v1" format="binary" version="1">
+      <cd:Description>This definition is based on version 5/B of product specification PO-RS-MDA-GS-2009 Vol11</cd:Description>
+      <cd:DetectionRule>
+        <cd:MatchData offset="0">PRODUCT=</cd:MatchData>
+        <cd:MatchData offset="9">MER_FRS_2P</cd:MatchData>
+      </cd:DetectionRule>
+    </cd:ProductDefinition>
+  </cd:ProductType>
+</cd:ProductClass>

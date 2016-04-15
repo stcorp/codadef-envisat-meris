@@ -1,0 +1,167 @@
+<?xml version="1.0"?>
+<cd:Record xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" format="binary" name="MER_RR__2P_ADSR_sq_meris_rec_data" last-modified="2010-08-26">
+  <cd:Field name="dsr_time">
+    <cd:Time timeformat="binary_envisat_datetime">
+      <cd:Description>Start time of the measurement</cd:Description>
+    </cd:Time>
+  </cd:Field>
+  <cd:Field name="attach_flag">
+    <cd:Integer>
+      <cd:Description>Attachment Flag</cd:Description>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_water_abs_aero">
+    <cd:Integer>
+      <cd:Description>% of water pixels having absorbing aerosols</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_water">
+    <cd:Integer>
+      <cd:Description>% of water pixels</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_ddv_land">
+    <cd:Integer>
+      <cd:Description>% of DDV land pixels</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_land">
+    <cd:Integer>
+      <cd:Description>% of land pixels</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_cloud">
+    <cd:Integer>
+      <cd:Description>% of cloud pixels</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_low_poly_press">
+    <cd:Integer>
+      <cd:Description>% of pixels with low polynomial pressure</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_low_neural_press">
+    <cd:Integer>
+      <cd:Description>% of pixels with low neural network pressure</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_inp_wvapour">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for water vapour proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_wvapour">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for water vapour proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_range_inp_cl">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for Cloud proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_cl">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for Cloud proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_in_ran_inp_land">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for Land proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_land">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for Land proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_inp_ocean">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for Ocean proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_ocean">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for Ocean proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_inp_case1">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for Case 1 proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_case1">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for Case 1 proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_inp_case2">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range inputs for Case 2 proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+  <cd:Field name="perc_out_ran_outp_case2">
+    <cd:Integer>
+      <cd:Description>% of pixels with out of range outputs for Case 2 proc.</cd:Description>
+      <cd:Unit>%</cd:Unit>
+      <cd:BitSize>8</cd:BitSize>
+      <cd:NativeType>int8</cd:NativeType>
+    </cd:Integer>
+  </cd:Field>
+</cd:Record>

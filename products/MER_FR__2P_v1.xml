@@ -1,0 +1,206 @@
+<?xml version="1.0"?>
+<cd:ProductDefinition xmlns:cd="http://www.stcorp.nl/coda/definition/2008/07" id="MER_FR__2P_v1" format="binary" last-modified="2008-08-21">
+  <cd:Record format="binary">
+    <cd:Field name="mph">
+      <cd:NamedType id="MPH"/>
+    </cd:Field>
+    <cd:Field name="sph">
+      <cd:NamedType id="MER_RR__2P_SPH"/>
+    </cd:Field>
+    <cd:Field name="dsd">
+      <cd:Array format="ascii">
+        <cd:Dimension><![CDATA[$num_dsd]]></cd:Dimension>
+        <cd:NamedType id="DSD"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Quality_ADS">
+      <cd:Array>
+        <cd:Description>Level 2 Summary Quality  ADS (SQ ADS)</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[0]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_ADSR_sq_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Scaling_Factor_GADS">
+      <cd:Array>
+        <cd:Description>Level 2 GADS Scaling Factor and Offsets</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[1]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_GADS_sfgi_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Tie_points_ADS">
+      <cd:Array>
+        <cd:Description>Level 2 ADS Tie Points Location and Aux. Data (L ADS)</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[2]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__1P_ADSR_tie_pt_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_1">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(1) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[3]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_2">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(2) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[4]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_3">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(3) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[5]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_4">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(4) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[6]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_5">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(5) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[7]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_6">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(6) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[8]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_7">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(7) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[9]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_8">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(8) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[10]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_9">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(9) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[11]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_10">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(10) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[12]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_11">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(11) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[13]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_12">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(12) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[14]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Norm_rho_surf_13">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(13) normalised surface reflectance</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[15]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_1_13_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Vapour_Content">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(14) water vapour content</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[16]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_14_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Chl_1_TOAVI_CTP">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(15) algal index I or TOAVI</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[17]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_15_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="YS_SPM_Rect_rho">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(16) yellow substance total suspended matter</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[18]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_16_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Chl_2_BOAVI">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(17) algal index II  BOAVI</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[19]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_17_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Press_PAR_Alb">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(18) surface pressure  PAR  cloud albedo</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[20]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_18_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Alpha_OPT">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(19) aerosol Angstrom exponent or cloud type and optical thickness</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[21]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_19_meris_rec_data_v1"/>
+      </cd:Array>
+    </cd:Field>
+    <cd:Field name="Flags">
+      <cd:Array>
+        <cd:Description>Level 2 MDS(20) flags</cd:Description>
+        <cd:Dimension><![CDATA[$num_dsr[22]]]></cd:Dimension>
+        <cd:NamedType id="MER_RR__2P_MDSR_20_meris_rec_data"/>
+      </cd:Array>
+    </cd:Field>
+  </cd:Record>
+  <cd:ProductVariable name="sceneRasterWidth">
+    <cd:Init><![CDATA[$sceneRasterWidth = int(/sph/line_length)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="tiePointGridWidth">
+    <cd:Init><![CDATA[$tiePointGridWidth = int(/sph/line_length) / int(/sph/samples_per_tie_pt)+ if((int(/sph/line_length) % int(/sph/samples_per_tie_pt)) == 0,0,1)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="num_dsd">
+    <cd:Init><![CDATA[$num_dsd = int(/mph/num_dsd)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="num_ds">
+    <cd:Init><![CDATA[$num_ds = 23]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ds_to_dsd_index">
+    <cd:Dimension><![CDATA[$num_ds]]></cd:Dimension>
+    <cd:Init><![CDATA[$ds_to_dsd_index[0] = index(/dsd, str(./ds_name) == "Quality ADS                 "); $ds_to_dsd_index[1] = index(/dsd, str(./ds_name) == "Scaling Factor GADS         "); $ds_to_dsd_index[2] = index(/dsd, str(./ds_name) == "Tie points ADS              "); $ds_to_dsd_index[3] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(1)     "); $ds_to_dsd_index[4] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(2)     "); $ds_to_dsd_index[5] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(3)     "); $ds_to_dsd_index[6] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(4)     "); $ds_to_dsd_index[7] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(5)     "); $ds_to_dsd_index[8] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(6)     "); $ds_to_dsd_index[9] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(7)     "); $ds_to_dsd_index[10] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(8)     "); $ds_to_dsd_index[11] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(9)     "); $ds_to_dsd_index[12] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(10)    "); $ds_to_dsd_index[13] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(11)    "); $ds_to_dsd_index[14] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(12)    "); $ds_to_dsd_index[15] = index(/dsd, str(./ds_name) == "Norm. rho_surf - MDS(13)    "); $ds_to_dsd_index[16] = index(/dsd, str(./ds_name) == "Vapour Content - MDS(14)    "); $ds_to_dsd_index[17] = index(/dsd, str(./ds_name) == "Chl_1, TOAVI   - MDS(15)    "); $ds_to_dsd_index[18] = index(/dsd, str(./ds_name) == "YS, SPM, Rect. Rho- MDS(16) "); $ds_to_dsd_index[19] = index(/dsd, str(./ds_name) == "Chl_2, BOAVI   - MDS(17)    "); $ds_to_dsd_index[20] = index(/dsd, str(./ds_name) == "Press PAR Alb  - MDS(18)    "); $ds_to_dsd_index[21] = index(/dsd, str(./ds_name) == "Alpha, OPT     - MDS(19)    "); $ds_to_dsd_index[22] = index(/dsd, str(./ds_name) == "Flags          - MDS(20)    ")]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ds_available">
+    <cd:Dimension><![CDATA[$num_ds]]></cd:Dimension>
+    <cd:Init><![CDATA[for i = 0 to $num_ds - 1 do $ds_available[i] = if($ds_to_dsd_index[i] != -1 && !(bytes(/dsd[$ds_to_dsd_index[i]]/filename, 8) == "NOT USED"), 1, 0)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="ds_offset">
+    <cd:Dimension><![CDATA[$num_ds]]></cd:Dimension>
+    <cd:Init><![CDATA[for i = 0 to $num_ds - 1 do $ds_offset[i] = 8 * int(/dsd[$ds_to_dsd_index[i]]/ds_offset)]]></cd:Init>
+  </cd:ProductVariable>
+  <cd:ProductVariable name="num_dsr">
+    <cd:Dimension><![CDATA[$num_ds]]></cd:Dimension>
+    <cd:Init><![CDATA[for i = 0 to $num_ds - 1 do $num_dsr[i] = int(/dsd[$ds_to_dsd_index[i]]/num_dsr)]]></cd:Init>
+  </cd:ProductVariable>
+</cd:ProductDefinition>
